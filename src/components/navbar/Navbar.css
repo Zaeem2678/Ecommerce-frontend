@@ -1,0 +1,73 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 16px;
+  box-shadow: 0 1px 3px -2px black;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-logo p {
+  color: #171717;
+  font-size: 38px;
+  font-weight: 600;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+  color: #626262;
+  font-size: 20px;
+  font-weight: 500;
+}
+.nav-menu li {
+  cursor: pointer;
+  list-style-type: none;
+  text-decoration: none;
+}
+.nav-logincart {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+.nav-logincart button {
+  width: 157px;
+  height: 58px;
+  border-radius: 75px;
+  color: #515151;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  background: white;
+  border: 1px solid #7a7a7a;
+}
+.nav-logincart button:active {
+  background: #f3f3f3;
+}
+.nav-logincart img {
+  cursor: pointer;
+}
+.nav-cart-count {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -35px;
+  margin-left: -55px;
+  border-radius: 11px;
+  font-size: 14px;
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+.nav-menu a {
+  text-decoration: none; /* removes underline */
+  color: inherit; /* makes it use your parent text color */
+}
+.nav-menu a.active-link {
+  font-weight: bold; /* makes it bold */
+}
